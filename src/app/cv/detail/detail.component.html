@@ -1,0 +1,56 @@
+<div class="card-container" *ngIf="cv">
+  <div class="card">
+    <div class="front">
+      <div class="cover">
+        <img src="assets/images/rotating_card_thumb2.png">
+      </div>
+      <div class="user">
+        <img class="img-circle" src="assets/images/{{cv?.path | defaultImage}}">
+      </div>
+      <div class="content">
+        <div class="main">
+          <h3 class="name">{{cv?.firstname}} {{cv?.name}}</h3>
+          <p class="profession">{{cv?.job}}</p>
+          <p class="text-center">"placeholder for description from API"</p>
+        </div>
+        <div class="footer">
+          <i class="fa fa-mail-forward"></i> Auto Rotation
+        </div>
+      </div>
+    </div> <!-- end front panel -->
+    <div class="back">
+      <div class="header">
+        <h5 class="motto">"Vaccination Details"</h5>
+      </div>
+      <div class="content">
+        <div class="main">
+          <h4 class="text-center">Vaccination</h4>
+          <p class="text-center">Vaccination complete</p>
+
+          <div class="stats-container">
+            <div class="stats">
+              <h4></h4>
+              <p>
+              </p>
+            </div>
+            <div class="stats">
+              <h4>2</h4>
+              <p>
+                Vaccin brand here
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="footer">
+       <button
+         (click)="embaucher()"
+         class="btn btn-primary">
+         Details
+       </button>
+      </div>
+    </div> <!-- end back panel -->
+  </div> <!-- end card -->
+</div>
