@@ -4,7 +4,7 @@
 
 ## Use cases implemented
 ### 0- Home page
-  ![alt text](https://github.com/medbensalah/TP-architecture/blob/main/screenshots/image4.png?raw=true)
+  ![alt text](https://github.com/medbensalah/TP-architecture/blob/main/image4.png?raw=true)
 ### 1- Visualize user vaccinatoin status
   Upon logging in, the user can enter the **state** tab to see his vaccination status
   ![alt text](https://github.com/medbensalah/TP-architecture/blob/main/screenshots/image0.png?raw=true)
