@@ -13,10 +13,10 @@
   The user is notified of every action he takes in the website and the notification type can either be a success info or error notification
 ![alt text](https://github.com/medbensalah/TP-architecture/blob/main/image2.png?raw=true)
 ### 3- Visualize national vaccination statistics
-  The user can enter the **info** tab to see national vaccination statistics (number of inscriptions and of vaccinations)
+The user can enter the **info** tab to see national vaccination statistics (number of inscriptions and of vaccinations)
 ![alt text](https://github.com/medbensalah/TP-architecture/blob/main/image3.png?raw=true)
 ### 4- Mobile application view
-  The application has a mobile access
+The application has a mobile access
 ![alt text](https://github.com/medbensalah/TP-architecture/blob/main/image5.png?raw=true)
 ## Why MVVM architecture ?
 We chose MVVM because the project contains some complex views such as displaying user vaccination status along with a notification system.
