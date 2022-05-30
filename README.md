@@ -1,6 +1,6 @@
 # TP-architecture
 
-## By Mohammed Ben Salah and Melek Elloumi, GL4 Group 2
+## By Mohammed Ben Salah and Melek Elloumi and Mohammed Karim Mellouli, GL4
 
 ## Use cases implemented
 ### 0- Home page
